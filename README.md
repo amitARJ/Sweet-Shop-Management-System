@@ -1,5 +1,8 @@
 # Sweet Shop Management System
 
+#LINK TO THE SITE(VERCEL)
+https://sweet-shop-management-system-beryl.vercel.app/login
+
 ## Project Description
 
 The Sweet Shop Management System is a full-stack web application that allows users to browse, search, filter, and purchase sweets through an intuitive React frontend and a secure FastAPI backend. It includes features like user registration, login with JWT authentication, product catalog management, and cart functionality to enhance the digital retail experience of a sweet shop.

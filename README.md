@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+# Sweet Shop Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Description
 
-## Available Scripts
+The Sweet Shop Management System is a full-stack web application that allows users to browse, search, filter, and purchase sweets through an intuitive React frontend and a secure FastAPI backend. It includes features like user registration, login with JWT authentication, product catalog management, and cart functionality to enhance the digital retail experience of a sweet shop.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Setup and Installation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Backend
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Ensure Python 3.9+ is installed.
+2. Navigate to the backend directory:
+cd backend
+3. Create and activate a virtual environment:
+python -m venv venv
+source venv/bin/activate # On macOS/Linux
+venv\Scripts\activate # On Windows
+4. Install dependencies:
+pip install -r requirements.txt
+5. Run the backend server:
+uvicorn app.main:app --reload
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+Backend server will start on `http://localhost:8000`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Frontend
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Ensure Node.js 14+ and npm are installed.
+2. Navigate to the frontend source directory:
+cd src
+3. Install dependencies:
+npm install
+4. Run the frontend dev server:
+npm start
 
-### `npm run eject`
+Frontend will be available at `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Features
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- User registration and JWT token-based login.
+- Browse and search sweets by name, category, and price range.
+- Sort sweets by price and name.
+- Add sweets to a shopping cart with quantity control.
+- View and edit user profile with membership info.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Screenshots
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Login Page](screenshots/1.jpg)  
+![Register_Page](screenshots/2.jpg)  
+![Dashboard](screenshots/3.jpg)  
+![Profile Page](screenshots/4.jpg)  
+![Shopping Cart](screenshots/5.jpg)
+![Shopping Cart](screenshots/6.jpg)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## My AI Usage
 
-### Analyzing the Bundle Size
+I used OpenAI's ChatGPT extensively for this project to:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Generate backend and frontend code for authentication and UI.
+- Debug and solve complex issues quickly.
+- Create README and documentation content.
+- Improve development flow and reduce boilerplate time.
 
-### Making a Progressive Web App
+AI helped me focus on architecture and made problem-solving faster and more efficient.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Contact
 
-### Deployment
+For questions or support, please contact amitarj8006@gmail.com.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

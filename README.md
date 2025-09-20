@@ -55,12 +55,12 @@ Frontend will be available at `http://localhost:3000`
 ## Screenshots
 
 
-![Login Page](screenshots/1.jpg)  
-![Register_Page](screenshots/2.jpg)  
-![Dashboard](screenshots/3.jpg)  
-![Profile Page](screenshots/4.jpg)  
-![Shopping Cart](screenshots/5.jpg)
-![Shopping Cart](screenshots/6.jpg)
+![Login Page](screenshots/1.png)  
+![Register_Page](screenshots/2.png)  
+![Dashboard](screenshots/3.png)  
+![Profile Page](screenshots/4.png)  
+![Shopping Cart](screenshots/5.png)
+![Shopping Cart](screenshots/6.png)
 
 ---
 
